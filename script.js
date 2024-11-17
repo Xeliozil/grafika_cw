@@ -24,6 +24,7 @@ const users = [
     {id: 3, name: "Grzegorz", age: 27}
 ];
 function WylistowanieOsob(){
+    console.clear()
     n=users.length;
     i=0;
     while (i<n){
